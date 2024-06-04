@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Product_Category_API
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Ganesh@123
+    url: jdbc:mysql://localhost:3306/prodcatdata
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        hbm2ddl:
+          auto: update
+        show_sql: true
